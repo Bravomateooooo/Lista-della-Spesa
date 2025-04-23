@@ -16,3 +16,20 @@ function aggiungiElemento(elemento)
         console.log(`L'elemento ${elemento} è già presente nella lista.`);
     }
 }
+
+function rimuoviElemento(elemento)
+{
+    const indice=listaDellaSpesa.indexOf(elemento);
+    const trovato=indice!==-1;
+    
+    if(trovato===true)
+    {
+        listaDellaSpesa.splice(indice,1);
+        console.log(`L'elemento ${elemento} è stato rimosso.`);
+    }
+    else
+    {
+        console.log(`L'elemento ${elemento} non è stato trovato. `);
+    }
+}
+
