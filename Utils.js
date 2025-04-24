@@ -33,3 +33,21 @@ function rimuoviElemento(elemento)
     }
 }
 
+function mostraLista()
+{
+    console.log("\n Lista della Spesa: ");
+
+    const listaVuota=listaDellaSpesa.length===0;
+
+    if(listaVuota===true)
+    {
+        console.log(" (vuota)");
+    }
+    else
+    {
+        listaDellaSpesa.forEach((elemento, indice)=>
+        {
+            console.log(`${indice+1}.${elemento}`);
+        });
+    }
+}
