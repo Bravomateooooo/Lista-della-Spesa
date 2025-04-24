@@ -72,3 +72,5 @@ function cercaElemento(testo)
     console.log(`Nessun elemento trovato per ${testo}.`);
   }
   
+  module.exports={aggiungiElemento, rimuoviElemento, mostraLista, ordinaLista,cercaElemento};
+  
