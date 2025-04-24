@@ -51,3 +51,10 @@ function mostraLista()
         });
     }
 }
+
+function ordinaLista()
+{
+    listaDellaSpesa.sort();
+    console.log("Lista della spesa ordinata!");
+}
+
