@@ -58,3 +58,17 @@ function ordinaLista()
     console.log("Lista della spesa ordinata!");
 }
 
+function cercaElemento(testo)
+{
+    for (let i=0;i<listaDellaSpesa.length;i++)
+    {
+        const elemento=listaDellaSpesa[i];
+        if (elemento.toLowerCase().includes(testo.toLowerCase()))
+        {
+            console.log(`Elemento trovato: ${elemento}`);
+            return; 
+        }
+    }
+    console.log(`Nessun elemento trovato per ${testo}.`);
+  }
+  
