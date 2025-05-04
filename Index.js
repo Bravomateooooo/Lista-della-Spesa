@@ -14,6 +14,9 @@ const {aggiungiElemento, rimuoviElemento, mostraLista, ordinaLista, cercaElement
  */
 let continua=true;
 
+/**
+ * @description Ciclo principale che mostra il menu e gestisce le scelte dell'utente.
+ */
 while(continua)
 {
     console.log("\n--- Gestione Lista della Spesa ---");
