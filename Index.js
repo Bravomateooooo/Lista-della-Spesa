@@ -1,9 +1,17 @@
 "use scrict";
 
+/**
+ * @author: Facciorusso Matteo.
+ * @description: Script principale per gestire la lista della spesa da terminale.
+ */
 const prompt=require("prompt-sync")();
 
 const {aggiungiElemento, rimuoviElemento, mostraLista, ordinaLista, cercaElemento}=require("./Utils.js");
 
+/**
+ * @type {boolean}
+ * @description Controlla se il programma deve continuare ad eseguire il ciclo principale.
+ */
 let continua=true;
 
 while(continua)
