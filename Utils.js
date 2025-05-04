@@ -1,5 +1,10 @@
 "use scrict";
 
+/**
+ * @author: Facciorusso Matteo
+ * @description: Array globale che contiene gli elementi della lista della spesa.
+ * @type {string[]}
+ */
 const listaDellaSpesa=[];
 
 function aggiungiElemento(elemento)
