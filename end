@@ -1,0 +1,11 @@
+[33mcommit b2fcdf61db0a5a1c7d44051e9732349fd10cd8b3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Facciorusso Matteo <matteofac07@gmail.com>
+Date:   Wed Apr 23 17:36:23 2025 +0200
+
+    Aggiunta funzione rimuoviElemento
+
+[33mcommit 38342ad9dcbef02bdeba9ab61bf0482b46c81979[m
+Author: Facciorusso Matteo <matteofac07@gmail.com>
+Date:   Wed Apr 23 17:25:33 2025 +0200
+
+    Aggiunta funzione aggiungiElemento

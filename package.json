@@ -1,0 +1,23 @@
+{
+  "name": "lista-della-spesa",
+  "version": "1.0.0",
+  "main": "Index.js",
+  "scripts": {
+    "doc": "jsdoc -c nome.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bravomateooooo/Lista-della-Spesa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bravomateooooo/Lista-della-Spesa/issues"
+  },
+  "homepage": "https://github.com/Bravomateooooo/Lista-della-Spesa#readme",
+  "description": "",
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
+  }
+}
