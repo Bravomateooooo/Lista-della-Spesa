@@ -32,11 +32,19 @@ while(continua)
     switch(scelta)
     {
         case "1":
+            /**
+             * @type {string}
+             * @description Elemento da aggiungere alla lista.
+             */
             const aggiungi=prompt("Inserisci l'elemento da aggiungere: ");
             aggiungiElemento(aggiungi);
             break;
 
         case "2":
+            /**
+             * @type {string}
+             * @description Elemento da rimuovere dalla lista.
+             */
             const rimuovi=prompt("Inserisci l'elemento da rimuovere: ");
             rimuoviElemento(rimuovi);
             break;
@@ -50,6 +58,10 @@ while(continua)
             break;
            
         case "5":
+            /**
+             * @type {string}
+             * @description Testo da cercare nella lista.
+             */
             const cerca=prompt("Inserisci il testo da cercare: ");
             cercaElemento(cerca);
             break;
