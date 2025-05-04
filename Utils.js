@@ -7,6 +7,12 @@
  */
 const listaDellaSpesa=[];
 
+/**
+ * @function aggiungiElemento
+ * @description Aggiunge un elemento alla lista se non è già presente.
+ * @param {string} elemento - L'elemento da aggiungere.
+ * @returns {void} - Non restituisce nulla.
+ */
 function aggiungiElemento(elemento)
 {
     const presente=listaDellaSpesa.includes(elemento);
