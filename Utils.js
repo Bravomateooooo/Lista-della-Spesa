@@ -50,6 +50,11 @@ function rimuoviElemento(elemento)
     }
 }
 
+/**
+ * @function mostraLista
+ * @description Mostra la lista della spesa o un messaggio se è vuota.
+ * @returns {void}
+ */
 function mostraLista()
 {
     console.log("\n Lista della Spesa: ");
