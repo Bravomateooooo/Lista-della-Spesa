@@ -28,6 +28,12 @@ function aggiungiElemento(elemento)
     }
 }
 
+/**
+ * @function rimuoviElemento
+ * @description Rimuove un elemento dalla liste se presente.
+ * @param {string} elemento - L'elemento da rimuovere. 
+ * @returns {void} - Non restituisce nulla.
+ */
 function rimuoviElemento(elemento)
 {
     const indice=listaDellaSpesa.indexOf(elemento);
