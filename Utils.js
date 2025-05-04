@@ -74,6 +74,11 @@ function mostraLista()
     }
 }
 
+/**
+ * @function ordinaLista
+ * @description Ordina alfabeticamente la lista della spesa.
+ * @returns {void}
+ */
 function ordinaLista()
 {
     listaDellaSpesa.sort();
