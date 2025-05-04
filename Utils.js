@@ -85,6 +85,12 @@ function ordinaLista()
     console.log("Lista della spesa ordinata!");
 }
 
+/**
+ * @function cercaElemento
+ * @description Cerca un elemento che contiene il testo dato.
+ * @param {string} testo - Il testo da cercare all'interno degli elementi della lista.
+ * @returns {void}
+ */
 function cercaElemento(testo)
 {
     for (let i=0;i<listaDellaSpesa.length;i++)
